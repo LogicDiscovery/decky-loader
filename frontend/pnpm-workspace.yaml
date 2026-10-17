@@ -3,3 +3,5 @@ minimumReleaseAgeExclude:
 - "@decky/ui"
 allowBuilds:
   esbuild: true
+patchedDependencies:
+  '@decky/ui@4.12.1': patches/@decky__ui@4.12.1.patch
